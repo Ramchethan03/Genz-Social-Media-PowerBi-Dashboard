@@ -1,0 +1,12 @@
+# Ignore local user layout settings
+.png
+*.log
+*.tmp
+
+# Ignore local cache data to prevent heavy binary uploads
+DataModelSchema
+cache.abf
+backup.abf
+
+# Optional: If your raw 1M row CSV is in this same folder, ignore it
+*.csv
